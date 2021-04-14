@@ -1,4 +1,4 @@
-# ETL-Project
+# ETL-Process - Food From India
 
 The **EXTRACT** portion ETL process for project was initially conducted by using two datasets from Kaggle. One dataset contained information about recipes for Indian food and the other dataset contained information about nutrition values for common food and products. Both of the datasets we found were CSVs as that was the type of file we wanted to extract for this process. The EXTRACT portion ended with loading the CSVs from these datasets into our Jupyter Notebook using a simple pd.read statement.
 
