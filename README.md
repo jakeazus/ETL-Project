@@ -6,7 +6,7 @@ The TRANSFORMATION (cleaning) portion for ETL after reading in our CSVs, require
 
 The LOAD portion for ETL was initialized once both dataframes were clean and contained all of the data that was needed to then load it into our Ingredients Database. Prior to working in pgAdmin, we had to establish the connection between our Jupyter Notebook and PostGres. Following this step, we used a to_sql function to load our dataframes into our database within pgAdmin. In pgAdmin, we joined both the indian food table and nutrition table on the first ingredient and second ingredient from the data within the clean dataframes. We chose to go this route in terms of query building because we wanted to see how many values would essentially match between each table (specifically the ingredients). We performed this inner join by using partial string match which required the LIKE % function in pgAdmin as well as use | | to represent an addition. 
 
-# Data Sources:
+# Data Sources
 
 https://www.kaggle.com/trolukovich/nutritional-values-for-common-foods-and-products
 
